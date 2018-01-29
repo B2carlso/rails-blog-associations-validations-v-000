@@ -1,4 +1,5 @@
 class TagsController < ApplicationController
+<<<<<<< HEAD
   before_action :set_tag, only: [:show, :edit, :update, :destroy]
 
   # GET /tags
@@ -71,4 +72,6 @@ class TagsController < ApplicationController
     def tag_params
       params.require(:tag).permit(:name)
     end
+=======
+>>>>>>> 255b09e86441e4d6bfa8a7ca62cb6d9233f13caa
 end
